@@ -1,6 +1,15 @@
 .about-section {
+  margin: 2rem 0rem;
   padding: 4rem 2rem;
   background-color: #ffffff;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.about-section.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .about-content {
@@ -15,34 +24,48 @@
 
 .about-text {
   flex: 1;
-  min-width: 250px;
+  min-width: 280px;
 }
 
 .about-text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: #b14740;
 }
 
 .about-text p {
   margin-bottom: 1rem;
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 1.05rem;
   color: #444;
 }
 
 .about-image {
   flex: 1;
   min-width: 250px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-image img {
-  max-width: 250px;
+.about-image{
+  background-image: url('D:\VS CODES\gowshick-portfolio\public\assets\profile_4.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid #333;
+  height: 400px;
   width: 100%;
+  max-width: 300px;
   border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-/* Responsive styles */
+.about-image:hover {
+  transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;

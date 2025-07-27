@@ -13,6 +13,14 @@
   }
 }
 
+
+body::-webkit-scrollbar {
+  width: 0px;
+  display: none;                /* Chrome, Safari */
+}
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

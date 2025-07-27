@@ -1,8 +1,28 @@
 import './About.css';
+import { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 const About = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) controls.start('visible');
+  }, [inView, controls]);
+
   return (
-    <section id="about" className="about-section">
+    <motion.section
+      id="about"
+      className="about-section"
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={{
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.8 } }
+      }}
+    >
       <div className="about-content">
         <div className="about-text">
           <h2>About Me</h2>
@@ -15,11 +35,9 @@ const About = () => {
             smart vehicle black box system as my final year project.
           </p>
         </div>
-        <div className="about-image">
-          <img src="/assets/profile.jpg" alt="Gowshick Profile" />
-        </div>
+        <div className="about-image"></div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
