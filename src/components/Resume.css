@@ -1,8 +1,18 @@
 .resume-section {
-  margin: 4rem 0rem;
-  padding: 4rem 2rem;
+  margin: 4rem 3rem;
+  border-radius: 8px;
+  padding: 6rem 0rem;
   text-align: center;
-  background-color: #f9f9f9;
+  background: url('D:\VS CODES\gowshick-portfolio\public\assets\profile_2.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; 
+  position: relative;
+  color: #ffffff; 
+}
+
+.resume-section * {
+  position: relative;
+  z-index: 2;
 }
 
 .resume-section h2 {
@@ -11,7 +21,7 @@
 }
 
 .resume-section p {
-  color: #555;
+  color: #eaeaea;
   margin-bottom: 1.5rem;
 }
 

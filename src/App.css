@@ -16,7 +16,7 @@
 
 body::-webkit-scrollbar {
   width: 0px;
-  display: none;                /* Chrome, Safari */
+  display: none;               
 }
 
 

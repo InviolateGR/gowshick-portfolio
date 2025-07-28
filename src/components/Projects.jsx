@@ -5,11 +5,11 @@ import { useEffect } from 'react';
 
 const projects = [
   {
-    title: "Smart Vehicle Black Box",
+    title: "BoringGames Online",
     description:
-      "Logs accident data using sensors, GPS location, SD card storage, and uploads to cloud.",
-    github: "#",
-    demo: "#"
+      "An interactive web platform designed for users to play simple and engaging games when bored.",
+    github: "https://github.com/InviolateGR/BoringGames.git",
+    demo: "https://inviolategr.github.io/BoringGames/"
   },
   {
     title: "Finance Tracker Web App",

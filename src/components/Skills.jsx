@@ -14,9 +14,10 @@ const Skills = () => {
   }, [inView, controls]);
 
   const skillList = [
-    "C", "C++", "Python", "Arduino", "Embedded C", "Proteus", "ESP32",
+    "C", "C++", "Python", "Arduino",
     "Figma", "Canva", "UI/UX Design",
-    "HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"
+    "HTML", "CSS", "JavaScript", "React.js",
+    "Node.js", "MongoDB", "Adobe Express", "Git"
   ];
 
   const cardVariants = {

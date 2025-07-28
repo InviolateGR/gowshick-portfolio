@@ -2,6 +2,7 @@ import './Contact.css';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
+import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   const controls = useAnimation();
@@ -10,6 +11,8 @@ const Contact = () => {
   useEffect(() => {
     if (inView) controls.start('visible');
   }, [inView, controls]);
+
+  const gmailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=gowshick@email.com";
 
   return (
     <motion.section
@@ -24,11 +27,18 @@ const Contact = () => {
       }}
     >
       <h2>Contact Me</h2>
-      <p>You can reach out to me via the links below:</p>
+      <p>Click an icon to reach out 👇</p>
+
       <div className="contact-links">
-        <a href="mailto:gowshick@email.com">📧 gowshick@email.com</a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">💼 LinkedIn</a>
-        <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer">🧑‍💻 GitHub</a>
+        <a href={gmailLink} target="_blank" rel="noreferrer" aria-label="Email">
+          <FaEnvelope />
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <FaGithub />
+        </a>
       </div>
     </motion.section>
   );

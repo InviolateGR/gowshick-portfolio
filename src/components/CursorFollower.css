@@ -1,0 +1,17 @@
+.cursor-follower {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1.8px solid #00cc70;
+  background-color: rgba(0, 204, 78, 0.18);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: width 0.2s, height 0.2s;
+  backdrop-filter: blur(4px);
+  mix-blend-mode: difference;
+  box-shadow: 0 0 12px rgba(0, 204, 92, 0.4);
+}

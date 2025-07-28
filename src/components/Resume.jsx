@@ -23,15 +23,17 @@ const Resume = () => {
         visible: { opacity: 1, y: 0, transition: { duration: 0.8 } }
       }}
     >
-      <h2>Resume</h2>
-      <p>You can view or download my latest resume below.</p>
-      <a
-        href="/assets/Gowshick_Resume.pdf"
-        download
-        className="btn-resume"
-      >
-        Download Resume
-      </a>
+      
+        <h2>Resume</h2>
+        <p>You can view or download my latest resume below.</p>
+        <a
+          href="/assets/Gowshick_Resume.pdf"
+          download
+          className="btn-resume"
+          >
+          Download Resume
+        </a>
+      
     </motion.section>
   );
 };

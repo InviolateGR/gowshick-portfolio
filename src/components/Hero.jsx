@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="hero-typewriter">
             <Typewriter
               onInit={(typewriter) => {
-                typewriter.typeString("Hi, I'm Gowshick Raja").start();
+                typewriter.typeString("Hey! This is Gowshick Raja").start();
               }}
               options={{
                 autoStart: true,

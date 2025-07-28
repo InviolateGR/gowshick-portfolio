@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import CursorFollower from './components/CursorFollower';
 import './App.css';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <Projects />
       <Resume />
       <Contact />
-
+      <CursorFollower />
+      
       
     </>
   );
