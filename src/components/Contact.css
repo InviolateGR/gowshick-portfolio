@@ -26,7 +26,14 @@
 
 .contact-links a {
   font-size: 2rem;
+  padding: 0.75rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: transform 0.3s ease;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .contact-links a[aria-label="Email"] {
