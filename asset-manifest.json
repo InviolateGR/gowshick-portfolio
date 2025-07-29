@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/InviolateGR/gowshick-portfolio.git/static/css/main.0a1d9b7b.css",
-    "main.js": "/InviolateGR/gowshick-portfolio.git/static/js/main.660f6f15.js",
-    "static/js/453.f6e15192.chunk.js": "/InviolateGR/gowshick-portfolio.git/static/js/453.f6e15192.chunk.js",
-    "static/media/profile_4.jpg": "/InviolateGR/gowshick-portfolio.git/static/media/profile_4.499522000796f97e15e6.jpg",
-    "static/media/profile_2.jpg": "/InviolateGR/gowshick-portfolio.git/static/media/profile_2.50e58b746d94188060ee.jpg",
-    "static/media/profile.jpg": "/InviolateGR/gowshick-portfolio.git/static/media/profile.ae61ba7b5561b03ca2a9.jpg",
-    "index.html": "/InviolateGR/gowshick-portfolio.git/index.html",
-    "main.0a1d9b7b.css.map": "/InviolateGR/gowshick-portfolio.git/static/css/main.0a1d9b7b.css.map",
-    "main.660f6f15.js.map": "/InviolateGR/gowshick-portfolio.git/static/js/main.660f6f15.js.map",
-    "453.f6e15192.chunk.js.map": "/InviolateGR/gowshick-portfolio.git/static/js/453.f6e15192.chunk.js.map"
+    "main.css": "/gowshick-portfolio/static/css/main.c5a87f55.css",
+    "main.js": "/gowshick-portfolio/static/js/main.357b5724.js",
+    "static/js/453.f6e15192.chunk.js": "/gowshick-portfolio/static/js/453.f6e15192.chunk.js",
+    "static/media/profile_4.jpg": "/gowshick-portfolio/static/media/profile_4.499522000796f97e15e6.jpg",
+    "static/media/profile_2.jpg": "/gowshick-portfolio/static/media/profile_2.50e58b746d94188060ee.jpg",
+    "static/media/profile.jpg": "/gowshick-portfolio/static/media/profile.ae61ba7b5561b03ca2a9.jpg",
+    "index.html": "/gowshick-portfolio/index.html",
+    "main.c5a87f55.css.map": "/gowshick-portfolio/static/css/main.c5a87f55.css.map",
+    "main.357b5724.js.map": "/gowshick-portfolio/static/js/main.357b5724.js.map",
+    "453.f6e15192.chunk.js.map": "/gowshick-portfolio/static/js/453.f6e15192.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a1d9b7b.css",
-    "static/js/main.660f6f15.js"
+    "static/css/main.c5a87f55.css",
+    "static/js/main.357b5724.js"
   ]
 }
