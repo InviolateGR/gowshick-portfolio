@@ -15,8 +15,16 @@ const projects = [
     title: "Finance Tracker Web App",
     description:
       "A MERN stack-based personal finance tracker with authentication and dashboard charts.",
-    github: "#",
+    github: "https://github.com/InviolateGR/personal-finance-manager",
     demo: "#"
+  },
+  {
+    title: "Gradient Backgrounds",
+    description:
+      "A web-based gradient generator that allows users to browse and rotate through predefined CSS gradients with real-time preview.
+",
+    github: "https://github.com/InviolateGR/Background_Generator",
+    demo: "https://inviolategr.github.io/Background_Generator/"
   },
   {
     title: "UI/UX Redesign – Variac Electricals",
