@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 
 export default function Loader() {
   const [visible, setVisible] = useState(true)
@@ -32,12 +33,13 @@ export default function Loader() {
       }}
     >
       {/* Snake logo SVG inline */}
-      <div style={{ width: 64, height: 64, opacity: 0.9 }}>
-        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="48" stroke="#c8b89a" strokeWidth="1.5" fill="none" opacity="0.3" />
-          <circle cx="50" cy="50" r="42" stroke="#c8b89a" strokeWidth="0.5" fill="none" opacity="0.2" />
-          <text x="50" y="56" textAnchor="middle" fill="#c8b89a" fontSize="32" fontFamily="serif">⟁</text>
-        </svg>
+      <div style={{ width: 54, height: 54, position: 'relative' }}>
+        <Image
+          src="/apple-touch-icon.png"
+          alt="Gowshick Raja"
+          fill
+          style={{ objectFit: 'contain' }}
+        />
       </div>
       <div
         style={{
