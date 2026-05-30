@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const links = [
   { label: 'About', href: '#about' },
@@ -42,28 +43,20 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" style={{ textDecoration: 'none' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <div
-              style={{
-                width: 28,
-                height: 28,
-                border: '1px solid #c8b89a66',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <span style={{ color: '#c8b89a', fontSize: 14, lineHeight: 1 }}>⟁</span>
-            </div>
-            <span
-              style={{
-                fontFamily: 'var(--font-mono)',
-                fontSize: 12,
-                letterSpacing: '0.12em',
-                color: '#f5f5f0',
-                textTransform: 'uppercase',
-              }}
-            >
+            <Image
+              src="/favicon-32x32.png"
+              alt="Gowshick Raja"
+              width={28}
+              height={28}
+              style={{ borderRadius: '50%' }}
+            />
+            <span style={{
+              fontFamily: 'var(--font-mono)',
+              fontSize: 12,
+              letterSpacing: '0.12em',
+              color: '#f5f5f0',
+              textTransform: 'uppercase',
+            }}>
               Gowshick
             </span>
           </div>
