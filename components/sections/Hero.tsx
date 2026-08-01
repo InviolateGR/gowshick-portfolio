@@ -241,7 +241,7 @@ export default function Hero() {
       >
         <div className="marquee-track">
           <span style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: '#2a2a2a', letterSpacing: '0.15em' }}>
-            {Array(8).fill('React.js · Node.js · TypeScript · MongoDB · Figma · UI/UX Design · REST APIs · Docker · Agile · SDLC ·&nbsp;').join('')}
+            {Array(8).fill('React.js · Node.js · TypeScript · MongoDB · Figma · UI/UX Design · REST APIs · Docker · Agile · SDLC · ').join('')}
           </span>
         </div>
       </div>

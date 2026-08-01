@@ -3,6 +3,32 @@
 import { useRef, useEffect, useState } from 'react'
 
 const projects = [
+    {
+    title: 'BooringGames',
+    subtitle: 'Web Game Portal',
+    year: '2025',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    role: 'Frontend Developer',
+    description:
+      'A responsive multi-game web portal with optimized frontend performance and cross-browser compatibility. Focused on smooth UX across all device sizes.',
+    tags: ['Responsive', 'Performance', 'Cross-browser'],
+    index: '03',
+    accent: '#8ab89a',
+    url: 'https://inviolategr.github.io/BoringGames/',
+  },
+  {
+  title: 'Smart Plantar Monitor',
+  subtitle: 'IoT + ML System — Final Year Research Project',
+  year: '2026',
+  stack: ['ESP32', 'Arduino', 'LSTM', 'TensorFlow Lite', 'Python'],
+  role: 'Core Developer & Researcher',
+  description:
+    'An intelligent wearable insole system that detects diabetic foot ulcer risk in real time using FSR pressure sensors, IMU gait analysis, and an LSTM deep learning model. Achieves 93–95% classification accuracy across normal, moderate, and high-risk profiles. Accepted & presented at ICACCS 2026.',
+  tags: ['IoT', 'Machine Learning', 'Healthcare', 'ICACCS 2026'],
+  index: '06',
+  accent: '#9ab8c8',
+  url: '#', // replace with conference paper link or leave as '#'
+  },
   {
     title: 'SnapMusic',
     subtitle: 'Full-Stack Music Platform',
@@ -14,6 +40,7 @@ const projects = [
     tags: ['Authentication', 'REST API', 'Agile'],
     index: '01',
     accent: '#c8b89a',
+    url: 'https://www.behance.net/gallery/238682545/Snap-Music?tracking_source=project_owner_other_projects'
   },
   {
     title: "Admin's Hub",
@@ -26,18 +53,7 @@ const projects = [
     tags: ['Figma', 'Prototyping', 'System Design'],
     index: '02',
     accent: '#7a8ab8',
-  },
-  {
-    title: 'BooringGames',
-    subtitle: 'Web Game Portal',
-    year: '2025',
-    stack: ['HTML', 'CSS', 'JavaScript'],
-    role: 'Frontend Developer',
-    description:
-      'A responsive multi-game web portal with optimized frontend performance and cross-browser compatibility. Focused on smooth UX across all device sizes.',
-    tags: ['Responsive', 'Performance', 'Cross-browser'],
-    index: '03',
-    accent: '#8ab89a',
+    url: 'https://www.behance.net/gallery/238676519/Admins-Hub?tracking_source=project_owner_other_projects'
   },
   {
     title: 'Gradient Backgrounds',
@@ -50,6 +66,20 @@ const projects = [
     tags: ['CSS', 'Real-time Preview', 'DX'],
     index: '04',
     accent: '#b89ac8',
+    url: 'https://inviolategr.github.io/Background_Generator/',
+  },
+  {
+  title: 'Campus Nexus',
+  subtitle: 'College ERP System — UI/UX Design',
+  year: '2025',
+  stack: ['Figma', 'UX Research', 'Design Systems'],
+  role: 'UI/UX Designer',
+  description:
+    'A comprehensive college ERP system UI covering student management, scheduling, and administrative workflows. Designed with a focus on clarity, role-based navigation, and scalable component architecture.',
+  tags: ['Figma', 'ERP', 'UI Design'],
+  index: '05',
+  accent: '#a8c4b8',
+  url: 'https://www.behance.net/gallery/240353899/Campus-Nexus-College-EPR-system-UI',
   },
 ]
 
@@ -200,7 +230,10 @@ export default function Projects() {
               </div>
 
               {/* Arrow */}
-              <div
+              <a href={p.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-hover
                 style={{
                   fontFamily: 'var(--font-display)',
                   fontSize: 24,
@@ -208,10 +241,12 @@ export default function Projects() {
                   transition: 'color 0.3s ease, transform 0.3s ease',
                   transform: hovered === i ? 'translate(4px, -4px)' : 'none',
                   paddingTop: 4,
+                  textDecoration: 'none',
+                  display: 'inline-block',
                 }}
               >
                 ↗
-              </div>
+              </a>
             </div>
           ))}
           <div style={{ borderTop: '1px solid #1c1c1c' }} />

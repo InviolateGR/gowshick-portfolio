@@ -47,6 +47,7 @@ body {
   top: 0; left: 0;
   width: 8px; height: 8px;
   background: #c8b89a;
+  box-shadow: 0px 0px 9px 3px #c8b89a;
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
