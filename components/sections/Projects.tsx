@@ -30,6 +30,19 @@ const projects = [
   url: '#', // replace with conference paper link or leave as '#'
   },
   {
+  title: 'Multi-Level Parking Management System',
+  subtitle: 'Java Backend System - Software Engineer / Backend Developer',
+  year: '2026',
+  stack: ['ESP32', 'Arduino', 'LSTM', 'TensorFlow Lite', 'Python'],
+  role: 'Core Developer & Researcher',
+  description:
+    'A console-based parking management system demonstrating clean architecture, SOLID principles, and four design patterns (Factory, Strategy, Observer, State). Features dynamic vehicle-type pricing, reservation handling with grace-period expiry, real-time occupancy notifications, and a persistence layer migrated live from file storage to SQLite — with zero changes to business logic.',
+  tags: ['Java', 'Design Patterns', 'JDBC', 'SQLite', 'JUnit'],
+  index: '06',
+  accent: '#c29ac8',
+  url: 'https://github.com/InviolateGR/parking-management-system', 
+  },
+  {
     title: 'SnapMusic',
     subtitle: 'Full-Stack Music Platform',
     year: '2024',
