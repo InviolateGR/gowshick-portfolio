@@ -12,7 +12,7 @@ const projects = [
     description:
       'A responsive multi-game web portal with optimized frontend performance and cross-browser compatibility. Focused on smooth UX across all device sizes.',
     tags: ['Responsive', 'Performance', 'Cross-browser'],
-    index: '03',
+    index: '01',
     accent: '#8ab89a',
     url: 'https://inviolategr.github.io/BoringGames/',
   },
@@ -25,7 +25,7 @@ const projects = [
   description:
     'An intelligent wearable insole system that detects diabetic foot ulcer risk in real time using FSR pressure sensors, IMU gait analysis, and an LSTM deep learning model. Achieves 93–95% classification accuracy across normal, moderate, and high-risk profiles. Accepted & presented at ICACCS 2026.',
   tags: ['IoT', 'Machine Learning', 'Healthcare', 'ICACCS 2026'],
-  index: '06',
+  index: '02',
   accent: '#9ab8c8',
   url: '#', // replace with conference paper link or leave as '#'
   },
@@ -38,7 +38,7 @@ const projects = [
   description:
     'A console-based parking management system demonstrating clean architecture, SOLID principles, and four design patterns (Factory, Strategy, Observer, State). Features dynamic vehicle-type pricing, reservation handling with grace-period expiry, real-time occupancy notifications, and a persistence layer migrated live from file storage to SQLite — with zero changes to business logic.',
   tags: ['Java', 'Design Patterns', 'JDBC', 'SQLite', 'JUnit'],
-  index: '06',
+  index: '03',
   accent: '#c29ac8',
   url: 'https://github.com/InviolateGR/parking-management-system', 
   },
@@ -51,7 +51,7 @@ const projects = [
     description:
       'A complete music web application with secure authentication, external API integrations, playlist management, and search. Built with scalability in mind under Agile iterations.',
     tags: ['Authentication', 'REST API', 'Agile'],
-    index: '01',
+    index: '04',
     accent: '#c8b89a',
     url: 'https://www.behance.net/gallery/238682545/Snap-Music?tracking_source=project_owner_other_projects'
   },
@@ -64,7 +64,7 @@ const projects = [
     description:
       'An end-to-end HR management dashboard featuring task scheduling, interview tracking, and data visualization. Designed from wireframe to high-fidelity prototype aligned with SDLC documentation.',
     tags: ['Figma', 'Prototyping', 'System Design'],
-    index: '02',
+    index: '05',
     accent: '#7a8ab8',
     url: 'https://www.behance.net/gallery/238676519/Admins-Hub?tracking_source=project_owner_other_projects'
   },
@@ -77,7 +77,7 @@ const projects = [
     description:
       'A utility platform for browsing and copying CSS gradient backgrounds with real-time direction preview. Clean interface focused on developer experience.',
     tags: ['CSS', 'Real-time Preview', 'DX'],
-    index: '04',
+    index: '06',
     accent: '#b89ac8',
     url: 'https://inviolategr.github.io/Background_Generator/',
   },
@@ -90,7 +90,7 @@ const projects = [
   description:
     'A comprehensive college ERP system UI covering student management, scheduling, and administrative workflows. Designed with a focus on clarity, role-based navigation, and scalable component architecture.',
   tags: ['Figma', 'ERP', 'UI Design'],
-  index: '05',
+  index: '07',
   accent: '#a8c4b8',
   url: 'https://www.behance.net/gallery/240353899/Campus-Nexus-College-EPR-system-UI',
   },
