@@ -3,13 +3,16 @@
 import { useRef, useEffect } from 'react'
 
 const certs = [
-  { title: 'Fundamentals of User Experience Design', issuer: 'Google', status: 'Completed', year: '2024' },
+  { title: 'Foundations of User Experience Design', issuer: 'Google', status: 'Completed', year: '2023' },
+  { title: 'Start the UX Design Process', issuer: 'Google', status: 'Completed', year: '2023' },
+  { title: 'Fundamentals of Graphic Design', issuer: 'Calarts', status: 'Completed', year: '2023' },
   { title: 'Software Development Life Cycle (SDLC)', issuer: 'LinkedIn Learning', status: 'Completed', year: '2024' },
   { title: 'Advanced Prompt Engineering Techniques', issuer: 'LinkedIn Learning', status: 'Completed', year: '2024' },
   { title: 'C++ Development', issuer: 'LinkedIn Learning', status: 'Completed', year: '2024' },
   { title: 'TCS NQT — Cognitive', issuer: 'TCS iON', status: 'Certified', year: '2024' },
-  { title: 'Docker Essentials', issuer: 'IBM', status: 'In Progress', year: '2025' },
+  { title: 'Complete Data Privacy (GDPR) Fundamentals', issuer: 'Udemy', status: 'Completed', year: '2026' },
   { title: 'Petrichor Workshops \'23 & \'24', issuer: 'IIT Palakkad', status: 'Attended', year: '2024' },
+  { title: 'ICACCS 2026 international Conference', issuer: 'Sri Eshwar College of Engineering', status: 'Presented', year: '2026' },
   { title: 'International Conference Participant', issuer: 'Hindustan College of Engineering', status: 'Attended', year: '2024' },
 ]
 

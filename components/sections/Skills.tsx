@@ -13,7 +13,7 @@ const skillGroups = [
   },
   {
     category: 'UI/UX',
-    skills: ['Figma', 'Wireframing', 'Prototyping', 'Usability Testing', 'Design Systems', 'Canva'],
+    skills: ['Figma', 'Wireframing', 'Prototyping', 'Usability Testing', 'Design Systems'],
   },
   {
     category: 'Tools',
@@ -26,6 +26,10 @@ const skillGroups = [
   {
     category: 'Practices',
     skills: ['SDLC', 'Agile', 'Testing', 'Code Reviews', 'Documentation', 'Debugging'],
+  },
+    {
+    category: 'Graphics & Design',
+    skills: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe Express', 'Canva', 'GIMP'],
   },
 ]
 

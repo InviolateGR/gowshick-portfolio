@@ -7,38 +7,56 @@ const posters = [
   {
     id: 1,
     title: 'Sacred Stone',
-    subtitle: 'Adobe Photoshop · 2025',
+    subtitle: 'Adobe Photoshop · 2026',
     src: '/creatives/poster-1.png',
   },
   {
     id: 2,
     title: 'The Shining Movie Poster',
-    subtitle: 'Adobe Photoshop · 2025',
+    subtitle: 'Adobe Photoshop · 2026',
     src: '/creatives/poster-2.png',
   },
   {
     id: 3,
     title: 'Oldboy Movie Poster',
-    subtitle: 'Adobe Photoshop · 2025',
+    subtitle: 'Adobe Photoshop · 2026',
     src: '/creatives/poster-3.png',
   },
   {
     id: 4,
     title: 'Movie Poster',
-    subtitle: 'Adobe Photoshop · 2025',
+    subtitle: 'Adobe Photoshop · 2026',
     src: '/creatives/poster-4.png',
   },
     {
-    id: 4,
+    id: 5,
     title: 'Rough Terrain T-Shirt Design',
     subtitle: 'Adobe Express · 2024',
     src: '/creatives/poster-5.png',
   },
     {
-    id: 4,
+    id: 6,
     title: 'Blossom T-Shirt Design',
     subtitle: 'Adobe Express · 2024',
     src: '/creatives/poster-6.png',
+  },
+    {
+    id: 7,
+    title: 'Daffodil',
+    subtitle: 'Adobe Photoshop · 2026',
+    src: '/creatives/poster-7.png',
+  },
+    {
+    id: 8,
+    title: 'Clematis',
+    subtitle: 'Adobe Photoshop · 2026',
+    src: '/creatives/poster-8.png',
+  },
+    {
+    id: 9,
+    title: 'Virgin Mary',
+    subtitle: 'Adobe Photoshop · 2026',
+    src: '/creatives/poster-9.png',
   }
 ]
 
