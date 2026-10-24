@@ -57,6 +57,18 @@ const posters = [
     title: 'Virgin Mary',
     subtitle: 'Adobe Photoshop · 2026',
     src: '/creatives/poster-9.png',
+  },
+    {
+    id: 10,
+    title: 'Lighters',
+    subtitle: 'Adobe Photoshop · 2026',
+    src: '/creatives/poster-10.png',
+  },
+    {
+    id: 11,
+    title: 'Greek God - Zeus',
+    subtitle: 'Adobe Photoshop · 2026',
+    src: '/creatives/poster-11.png',
   }
 ]
 
