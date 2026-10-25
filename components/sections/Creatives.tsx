@@ -69,6 +69,12 @@ const posters = [
     title: 'Greek God - Zeus',
     subtitle: 'Adobe Photoshop · 2026',
     src: '/creatives/poster-11.png',
+  },
+    {
+    id: 12,
+    title: 'Greek God - Poesidon',
+    subtitle: 'Adobe Photoshop · 2026',
+    src: '/creatives/poster-12.png',
   }
 ]
 
